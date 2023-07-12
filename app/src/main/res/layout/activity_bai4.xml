@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Lap32.Bai4">
+    <EditText
+        android:id="@+id/etA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter a"/>
+
+    <EditText
+        android:id="@+id/etB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter b"/>
+
+    <EditText
+        android:id="@+id/etC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter c"/>
+
+    <Button
+        android:id="@+id/btnCalculateDelta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Delta"/>
+
+    <TextView
+        android:id="@+id/tvDelta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Delta: "
+        android:textSize="20sp"/>
+
+</LinearLayout>
