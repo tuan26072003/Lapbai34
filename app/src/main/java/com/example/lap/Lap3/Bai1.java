@@ -40,7 +40,7 @@ public class Bai1 extends AppCompatActivity {
                 String gpa = editTextGPA.getText().toString();
 
                 if (!name.isEmpty() && !gpa.isEmpty()) {
-                    String url = "http://10.24.48.212/web/student_Get.php" + URLEncoder.encode(name) + "&gpa=21" + URLEncoder.encode(gpa);
+                    String url = "http://10.24.48.212/web/student_Get.php" + URLEncoder.encode(name) + "&gpa=" + URLEncoder.encode(gpa);
                     new GetDataFromServerTask().execute(url);
                 }
             }

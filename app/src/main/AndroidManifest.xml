@@ -13,6 +13,12 @@
         android:theme="@style/Theme.Lap"
         tools:targetApi="31">
         <activity
+            android:name=".Lap32.Bai4"
+            android:exported="false" />
+        <activity
+            android:name=".Lap32.MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
