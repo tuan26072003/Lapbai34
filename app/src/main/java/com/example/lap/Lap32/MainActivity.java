@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         btnCalculateVolume.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String url = "http://yourserver.com/calculateVolume.php";
+                String url = "http://172.20.10.4/tuan/rectangle_POST.php";
                 new CalculateVolumeTask().execute(url);
             }
         });
